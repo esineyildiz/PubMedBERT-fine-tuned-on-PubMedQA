@@ -72,7 +72,7 @@ The model struggles overall, performing only slightly better than random guessin
   
 *Note*: The original PubMedQA paper uses a 450/50/500 train/dev/test split. 
 This project uses 700/150/150, so results are not directly comparable 
-to published benchmarks, but the relative comparison between models remains valid.
+to published benchmarks, but the relative comparison between models remains valid. In the future, these parameters can be tested with the same split, which would create the oppurtunity to also compare the human expert annotations.
 
 ## Usage
 
