@@ -41,9 +41,11 @@ PubMedBERT outperformed BERT-base by 12 percentage points in accuracy and nearly
 - An experiment with class weighting and lower learning rate did not improve results.
 - Domain-specific pretraining provides clear benefits for biomedical text classification. 
 
-## Confusion Matrices
+## Confusion Matrices 
+### PubMedBert 
 
-![PubMedBERT Confusion Matrix](pubmedbert.png)
+![PubMedBERT Confusion Matrix](pubmedbert.png) 
+### BERT-base 
 
 ![BERT-base Confusion Matrix](vanilla_bert.png)
 
