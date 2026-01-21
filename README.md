@@ -67,12 +67,12 @@ The model struggles overall, performing only slightly better than random guessin
 ## Observations
 
 - Both models failed to predict the minority class ("maybe"), likely due to class imbalance.
-- An experiment with class weighting (train_v2.py) did not improve results — the model still never predicted "maybe", and overall accuracy dropped from 64.7% to 54%. The semantic signal for "maybe" is ambiguous and likely requires more training data than the 700 examples provided.
+- An experiment with class weighting did not improve results; the model still never predicted "maybe", and overall accuracy dropped from 64.7% to 54%. 
 - Domain-specific pretraining provides clear benefits for biomedical text classification.
   
 *Note*: The original PubMedQA paper uses a 450/50/500 train/dev/test split. 
-This project uses 700/150/150, so results are not directly comparable 
-to published benchmarks, but the relative comparison between models remains valid. In the future, these parameters can be tested with the same split, which would create the oppurtunity to also compare the human expert annotations.
+This project uses 700/150/150, so the results are not directly comparable 
+to published benchmarks, but the relative comparison between models remains valid. 
 
 ## Usage
 
